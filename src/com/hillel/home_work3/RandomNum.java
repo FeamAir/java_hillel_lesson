@@ -11,7 +11,7 @@ public class RandomNum {
         int min = scanner.nextInt();
         System.out.println("Enter max limit");
         int max = scanner.nextInt();
-        int result = min + (int) (Math.random() * (max - min));
+        int result = min + (int) (Math.random() * (max - (min-1)));
         System.out.println("The random value is " + result + " range : " + min + " and " + max);
 
 
