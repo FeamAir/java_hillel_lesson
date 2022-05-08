@@ -1,4 +1,4 @@
-package com.hillel.home_work2;
+package com.hillel.korolhome_work2;
 
 public class ExeMath {
     public static void main(String[] args) {

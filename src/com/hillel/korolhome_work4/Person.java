@@ -1,4 +1,4 @@
-package com.hillel.home_work4;
+package com.hillel.korolhome_work4;
 
 public class Person {
 

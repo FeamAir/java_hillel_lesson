@@ -1,4 +1,4 @@
-package com.hillel.home_work4;
+package com.hillel.korolhome_work4;
 
 public class Zoo {
 
@@ -32,14 +32,14 @@ public class Zoo {
     }
 
     private static int countAnimalsNextYear(int bears, int tigers, int parrots, int elephants, int raccoons, int porcupine) {
-        int resultbears = Math.round(bears * (float) 0.3);
-        int resulttigers = Math.round(tigers * (float) 0.2);
-        int resultparrots = Math.round(parrots * (float) 0.4);
-        int resultelephants = Math.round(elephants * (float) 0.05);
-        int resultraccoons = Math.round(raccoons * (float) 0.8);
-        int resultporcupine = Math.round(porcupine * (float) 0.15);
+        int resultBears = Math.round(bears * (float) 0.3);
+        int resultTigers = Math.round(tigers * (float) 0.2);
+        int resultParrots = Math.round(parrots * (float) 0.4);
+        int resultElephants = Math.round(elephants * (float) 0.05);
+        int resultRaccoons = Math.round(raccoons * (float) 0.8);
+        int resultPorcupine = Math.round(porcupine * (float) 0.15);
 
-        int result = resultbears + resulttigers + resultparrots + resultelephants + resultraccoons + resultporcupine;
+        int result = resultBears + resultTigers + resultParrots + resultElephants + resultRaccoons + resultPorcupine;
         System.out.println("Кількість тварин за рік з урухованням дикобраза = " + result + " тварин ");
         return result;
     }

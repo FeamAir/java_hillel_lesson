@@ -1,4 +1,4 @@
-package com.hillel.home_work3;
+package com.hillel.korolhome_work3;
 
 import java.util.Scanner;
 
