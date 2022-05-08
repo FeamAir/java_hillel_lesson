@@ -12,7 +12,7 @@ public class Rounding {
         int rounding = scanner.nextInt();
 
         double totalValue = doubleToDecimalPlaces(a,rounding);
-        System.out.println("Your value = " + totalValue);
+        System.out.println("result of " + rounding +" decimal: " + totalValue);
 
     }
 
